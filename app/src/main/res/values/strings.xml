@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="button_name">登录</string>
+    <string name="lable_name1">用户名</string>
+    <string name="lable_name2">密码</string>
+    <string name="hello_world">我是一个textView ，我是一个textView ，我是一个textView，我是一个textView。</string>
+</resources>
