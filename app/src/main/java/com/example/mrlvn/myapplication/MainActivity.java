@@ -31,14 +31,14 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         /**
          * 1.监听事件通过第一种方法实现（匿名内部类）
          */
-        loginbutton.setOnClickListener(new OnClickListener(){
+       /* loginbutton.setOnClickListener(new OnClickListener(){
 
             public void onClick (View v){
                 //在当前onclick方法中监听button的动作
                 System.out.println("我的按钮被点击了");
             }
 
-        });
+        });*/
 
         /**
          * 2.点击事件外部类写法和作用
