@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="1">
+
+    <Button
+        android:text="第一种跳转方式"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_first"
+        android:layout_weight="0.10"/>
+
+    <Button
+        android:text="第二种带参数的跳转方式"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_second"
+        android:layout_weight="0.10"/>
+
+    <TextView
+        android:text="显示第二种跳转方式带回来的参数"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_weight="0.10"/>
+</LinearLayout>
